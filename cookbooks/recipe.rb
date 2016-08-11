@@ -18,3 +18,5 @@ file '/etc/php.ini' do
         content.gsub!(/^;date.timezone =$/, 'date.timezone = Asia/Tokyo')
     end
 end
+
+directory '/home/vagrant/myapp'

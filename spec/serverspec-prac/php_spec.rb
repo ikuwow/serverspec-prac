@@ -9,3 +9,4 @@ end
 describe php_config('date.timezone') do
     its(:value) { should eq 'Asia/Tokyo' }
 end
+
