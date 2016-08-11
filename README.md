@@ -10,3 +10,16 @@ serverspec-prac
 $ vagrant up
 $ vagrant ssh-config --host serverspec-prac >> ~/.ssh/config
 ```
+
+## test
+
+```
+$ rake spec
+```
+
+## provision
+
+```
+$ itamae ssh -h serverspec-prac cookbooks/recipe.rb
+```
+
